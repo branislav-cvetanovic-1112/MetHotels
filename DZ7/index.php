@@ -29,6 +29,12 @@ and open the template in the editor.
         <h1>POST forma</h1>
         <form action="post.php" method="POST" class="">
           <div class="form-group">
+            <select name="type">
+              <option value="json">json</option>
+              <option value="xml">xml</option>
+            </select> 
+          </div>
+          <div class="form-group">
             Ime: <input type="text" name="ime"/> <br/>
           </div>
           <div class="form-group">
@@ -46,6 +52,12 @@ and open the template in the editor.
       <div class="col-sm-6">
         <h1>GET forma</h1>
         <form action="get.php" method="GET" class="">
+          <div class="form-group">
+            <select name="type">
+              <option value="json">json</option>
+              <option value="xml">xml</option>
+            </select> 
+          </div>
           <div class="form-group">
             Ime: <input type="text" name="ime"/> <br/>
           </div>
