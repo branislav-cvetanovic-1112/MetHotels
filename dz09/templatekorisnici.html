@@ -1,0 +1,117 @@
+<div *ngFor="#korisnik of korisnici">
+<h3>Personal Data</h3>
+<table class="table table-hover">
+          <tr>
+            <th>Ime: </th>
+            <td>{{korisnik.ime}}</td>
+          </tr>
+          <tr>
+            <th>Date of birth</th>
+            <td>{{korisnik.datum}}</td>
+          </tr>
+          <tr>
+            <th>Postal address</th>
+            <td>{{korisnik.adresa}}</td>
+          </tr>
+          <tr>
+            <th>Post Code</th>
+            <td>{{korisnik.postanskiBroj}}</td>
+          </tr>
+          <tr>
+            <th>City of residence</th>
+            <td>{{korisnik.mestoStanovanja}}</td>
+          </tr>
+          <tr>
+            <th>Country</th>
+            <td>{{korisnik.zemlja}}</td>
+          </tr>
+          <tr>
+            <th>Gender</th>
+            <td>{{korisnik.gender}}</td>
+          </tr>
+          <tr>
+            <th>Martial status</th>
+            <td>Single</td>
+          </tr>
+          <tr>
+            <th>Citizenship</th>
+            <td>{{korisnik.drzavljanstvo}}</td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td>{{korisnik.email}}</td>
+          </tr>
+        </table>
+        <h3>Education</h3>
+        <table class="table table-hover">
+          <tr>
+            <th>Universyty / College</th>
+            <td>{{korisnik.universyty}}</td>
+          </tr>
+          <tr>
+            <th>City</th>
+            <td>{{korisnik.grad}}</td>
+          </tr>
+          <tr>
+            <th>Type </th>
+            <td>{{korisnik.smer}}</td>
+          </tr>
+          <tr>
+            <th>Duration</th>
+            <td>{{korisnik.trajanje}}</td>
+          </tr>
+        </table>
+        <h3>Working experience</h3>
+        <table class="table table-hover">
+          <tr>
+            <th>Company name</th>
+            <td>{{korisnik.firma}}</td>
+          </tr>
+          <tr>
+            <th>Job position</th>
+            <td>{{korisnik.position}}</td>
+          </tr>
+          <tr>
+            <th>Employment period</th>
+            <td>{{korisnik.vreme}}</td>
+          </tr>
+          <tr>
+            <th>Job Level</th>
+            <td>{{korisnik.level}}</td>
+          </tr>
+        </table>
+        <h3>Computer skills</h3>
+        <table class="table table-hover">
+          <tr>
+            <th>Using internet</th>
+            <td>{{korisnik.internet}}</td>
+          </tr>
+          <tr>
+            <th>Known programming languages</th>
+            <td>{{korisnik.languages}}</td>
+          </tr>
+          <tr>
+            <th>Spoken languages</th>
+            <td>{{korisnik.languages2}}</td>
+          </tr>
+        </table>
+        <h3>Other remarks</h3>
+        <table class="table table-hover">
+          <tr>
+            <th>Served army</th>
+            <td>{{korisnik.army}}</td>
+          </tr>
+          <tr>
+            <th>Drivers licence</th>
+            <td>{{korisnik.vozacka}}</td>
+          </tr>
+          <tr>
+            <th>Remark</th>
+            <td>{{korisnik.znaOS}}</td>
+          </tr>
+          <tr>
+            <th>Remark</th>
+            <td>{{korisnik.softwarePrefered}}</td>
+          </tr>
+        </table>
+</div>

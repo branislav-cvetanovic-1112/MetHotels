@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-Mar-2016, 20:14:42
+    Author     : bantu
+*/
+@boja-272727: #272727;
+@boja-bela: #ffffff;
+@boja-b0b0b0: #b0b0b0;
+@padding-50px: 50px;
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700italic,700,500italic,500,400italic,300italic,300&subset=latin,cyrillic-ext);
+body {
+    font-family: "Ubuntu";
+    background-image: url('../img/bg.jpg');
+    background-repeat: repeat;
+}
+.logo {
+    padding:20px 0px 20px 0px;
+}
+.line {
+    border-bottom: 1px @boja-bela solid;
+}
+.responsiveMap {
+    width: 100%;
+    min-height: 400px;
+}
+.jumbotron {
+    margin-top: 20px;
+}
+/* NAV */
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: @boja-bela;
+    background-color: @boja-272727;
+}
+.nav-pills > li > a, .nav-pills > li > a:focus, .nav-pills > li > a:hover {
+    color: @boja-bela;
+    background-color: @boja-272727;
+}
+.nav-pills > li > a {
+    color: @boja-272727;
+    background-color: transparent;
+}
+
+/* FOOTER */
+.footerLine {
+    background-image: url('../img/footerbg.png');
+    background-repeat: repeat-x;
+    margin-top: @padding-50px;
+}
+footer {
+    background-color: #000000;
+    padding-top: @padding-50px;
+    color: @boja-b0b0b0;
+    padding-bottom: @padding-50px;
+}
+.footer {
+    background-color: #000000;
+}
+footer ul li {
+    list-style:none;
+}
+/* Info section CSS*/
+.footerInfoBox {
+    float:left;
+    font-size: 1em;
+}
+.footerInfoBox ul li {
+    display: inline-block;
+    margin:10px 10px 0px 0px;
+}
+.footerInfo {
+    border-top: solid 2px @boja-272727;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    color: @boja-b0b0b0;
+}

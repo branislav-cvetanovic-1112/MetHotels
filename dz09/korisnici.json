@@ -1,0 +1,29 @@
+[
+	{
+		"id": "56f582067ccdec13dd855ce6",
+		"ime": "Branislav Cvetanovic",
+		"datum": "12.11.1985",
+		"adresa" : "Dobri Spanca 39b",
+		"postanskiBroj" : "16000",
+		"mestoStanovanja" : "Leskovac",
+		"zemlja":"Srbija",
+		"gender": "male",
+		"drzavljanstvo":"srpsko",
+		"email": "branislav.cvetanovic.1112@metropolitan.ac.rs",
+		"universyty":"Univerzitet Metropolitan",
+		"grad":"Beograd - Srbija",
+		"smer":"Informacione tehnologije",
+		"trajanje":"3 godine",
+		"firma":"infoterm",
+		"position":"coder",
+		"vreme":"3 godine",
+		"jobLevel":"profesional",
+		"internet":"Advanced Level",
+		"languages":"html, css, php, js, typoscript, java, python",
+		"languages2":"serbian , english",
+		"army":"Zavrsio",
+		"vozacka":"kategorija B",
+		"softwarePrefered":"netbeans, android studio, eclipse, sublime text, notepad++",
+		"znaOS":"windows, mac os x, linux"
+	}
+]
